@@ -1,0 +1,84 @@
+/* General styling for the container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('gif.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Styling for the form */
+.login-form {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Styling for the form title */
+.login-form h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Styling for the input fields */
+.login-form input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Styling for the submit button */
+.login-form button {
+  width: 100%;
+  padding: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Button hover effect */
+.login-form button:hover {
+  background: #0056b3;
+}
+
+/* Styling for the register link */
+.register-link {
+  margin-top: 1.5rem;
+}
+
+/* Styling for the register link text */
+.register-link p {
+  margin: 0;
+  color: #333;
+}
+
+.register-link a {
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+/* Ensure the body has no other styles affecting it */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}

@@ -1,0 +1,48 @@
+/* UserList.css */
+
+.user-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .user-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-card h4 {
+    margin-bottom: 10px;
+  }
+  
+  .user-card p {
+    margin-bottom: 5px;
+  }
+  
+  .modify-button,
+  .delete-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modify-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .modify-button:hover,
+  .delete-button:hover {
+    background-color: #0056b3;
+  }
+  
